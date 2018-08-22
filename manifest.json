@@ -1,21 +1,27 @@
 {
-  "short_name": "Joni",
-  "name": "Joni Manifest",
+  "short_name": "Manifest teste",
+  "name": "Teste Manifest do João",
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "https://joni-manifest.netlify.com/images/icons-48.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "48x48"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "https://joni-manifest.netlify.com/images/icons-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "https://joni-manifest.netlify.com/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+    {
+      "src": "https://joni-manifest.netlify.com/images/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?utm_source=manifest",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/maps/",
-  "theme_color": "#3367D6"
+  "start_url": "https://joni-manifest.netlify.com/?pwa_launcher=true"
 }
