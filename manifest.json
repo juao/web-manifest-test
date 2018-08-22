@@ -1,27 +1,8 @@
 {
-  "short_name": "Manifest teste",
-  "name": "Teste Manifest do João",
-  "icons": [
-    {
-      "src": "https://joni-manifest.netlify.com/images/icons-48.png",
-      "type": "image/png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "https://joni-manifest.netlify.com/images/icons-96.png",
-      "type": "image/png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "https://joni-manifest.netlify.com/images/icons-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-    {
-      "src": "https://joni-manifest.netlify.com/images/icons-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "https://joni-manifest.netlify.com/?pwa_launcher=true"
+  "name": "Donate App",
+  "description": "This app helps you donate to worthy causes.",
+  "icons": [{
+    "src": "https://joni-manifest.netlify.com/images/icons-192.png",
+    "sizes": "192x192"
+  }]
 }
